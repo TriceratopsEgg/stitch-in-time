@@ -1,0 +1,35 @@
+{
+  "name": "stitch-in-time",
+  "version": "1.0.0",
+  "description": "Craft project manager",
+  "main": "index.js",
+  "scripts": {
+    "lint:fix": "npm run lint -- --fix",
+    "lint": "eslint **/*.js",
+    "test": "concurrently \\\"npm:test-*\\\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TriceratopsEgg/stitch-in-time.git"
+  },
+  "keywords": [
+    "craft",
+    "project",
+    "track",
+    "manage"
+  ],
+  "author": "Gertruida Maritz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TriceratopsEgg/stitch-in-time/issues"
+  },
+  "homepage": "https://github.com/TriceratopsEgg/stitch-in-time#readme",
+  "dependencies": {
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint -- --fix"
+    }
+  }
+}
