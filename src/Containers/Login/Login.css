@@ -1,0 +1,52 @@
+.mdl-shadow--2dp {
+    box-shadow: none;
+    background-color: #656565 !important;
+    color: #faa4d8 !important;
+}
+
+.firebaseui-info-bar {
+    margin-top: 20px;
+    background-color: #656565 !important;
+    color: #faa4d8 !important;
+    border: #4a4a4a !important
+}
+
+div.mdl-progress::after {
+    display: block;
+    color: whitesmoke;
+    content: "Authenticating";
+    margin: 20px auto;
+    text-align: center;
+    background-color: #656565 !important;
+}
+
+.mdl-progress>.bufferbar {
+    background-image: linear-gradient(90deg,hsla(0,0%,100%,.7),hsla(0,0%,100%,.7)),linear-gradient(90deg,#faa4d8,#faa4d8) !important
+}
+
+.mdl-progress.mdl-progress--indeterminate>.bar1, .mdl-progress.mdl-progress__indeterminate>.bar1 {
+    background-color: #faa4d8 !important;
+}
+
+.mdl-progress {
+    height: 5px;
+    color: #faa4d8 !important;
+    background-color: #656565 !important
+}
+
+.firebaseui-container {
+    background: none !important
+}
+
+.firebaseui-subtitle, .firebaseui-title, .firebaseui-input {
+    color: whitesmoke !important
+}
+
+.firebaseui-link {
+    color: #faa4d8 !important
+}
+
+.mdl-button--raised.mdl-button--colored {
+    background: #faa4d8 !important; 
+    color: black !important
+}
